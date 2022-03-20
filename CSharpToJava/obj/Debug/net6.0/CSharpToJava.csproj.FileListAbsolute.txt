@@ -1,0 +1,15 @@
+C:\Users\stefa\Documents\CSharpToJava\CSharpToJava\bin\Debug\net6.0\CSharpToJava.exe
+C:\Users\stefa\Documents\CSharpToJava\CSharpToJava\bin\Debug\net6.0\CSharpToJava.deps.json
+C:\Users\stefa\Documents\CSharpToJava\CSharpToJava\bin\Debug\net6.0\CSharpToJava.runtimeconfig.json
+C:\Users\stefa\Documents\CSharpToJava\CSharpToJava\bin\Debug\net6.0\CSharpToJava.dll
+C:\Users\stefa\Documents\CSharpToJava\CSharpToJava\bin\Debug\net6.0\CSharpToJava.pdb
+C:\Users\stefa\Documents\CSharpToJava\CSharpToJava\obj\Debug\net6.0\CSharpToJava.csproj.AssemblyReference.cache
+C:\Users\stefa\Documents\CSharpToJava\CSharpToJava\obj\Debug\net6.0\CSharpToJava.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stefa\Documents\CSharpToJava\CSharpToJava\obj\Debug\net6.0\CSharpToJava.AssemblyInfoInputs.cache
+C:\Users\stefa\Documents\CSharpToJava\CSharpToJava\obj\Debug\net6.0\CSharpToJava.AssemblyInfo.cs
+C:\Users\stefa\Documents\CSharpToJava\CSharpToJava\obj\Debug\net6.0\CSharpToJava.csproj.CoreCompileInputs.cache
+C:\Users\stefa\Documents\CSharpToJava\CSharpToJava\obj\Debug\net6.0\CSharpToJava.dll
+C:\Users\stefa\Documents\CSharpToJava\CSharpToJava\obj\Debug\net6.0\refint\CSharpToJava.dll
+C:\Users\stefa\Documents\CSharpToJava\CSharpToJava\obj\Debug\net6.0\CSharpToJava.pdb
+C:\Users\stefa\Documents\CSharpToJava\CSharpToJava\obj\Debug\net6.0\CSharpToJava.genruntimeconfig.cache
+C:\Users\stefa\Documents\CSharpToJava\CSharpToJava\obj\Debug\net6.0\ref\CSharpToJava.dll
