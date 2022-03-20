@@ -254,6 +254,10 @@ namespace CCompiler {
             }
             else {
               buffer.Append(word);
+
+              if (Char.IsUpper(word[0])) {
+                //Console.Out.WriteLine(word);
+              }
             }
           }
           else if (s[index] == '\'') {
