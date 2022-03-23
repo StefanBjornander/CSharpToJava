@@ -1,0 +1,15 @@
+C:\Users\stefa\Documents\CSharpToJava\SlashToJava\obj\Debug\net6.0\SlashToJava.csproj.AssemblyReference.cache
+C:\Users\stefa\Documents\CSharpToJava\SlashToJava\obj\Debug\net6.0\SlashToJava.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stefa\Documents\CSharpToJava\SlashToJava\obj\Debug\net6.0\SlashToJava.AssemblyInfoInputs.cache
+C:\Users\stefa\Documents\CSharpToJava\SlashToJava\obj\Debug\net6.0\SlashToJava.AssemblyInfo.cs
+C:\Users\stefa\Documents\CSharpToJava\SlashToJava\obj\Debug\net6.0\SlashToJava.csproj.CoreCompileInputs.cache
+C:\Users\stefa\Documents\CSharpToJava\SlashToJava\bin\Debug\net6.0\SlashToJava.exe
+C:\Users\stefa\Documents\CSharpToJava\SlashToJava\bin\Debug\net6.0\SlashToJava.deps.json
+C:\Users\stefa\Documents\CSharpToJava\SlashToJava\bin\Debug\net6.0\SlashToJava.runtimeconfig.json
+C:\Users\stefa\Documents\CSharpToJava\SlashToJava\bin\Debug\net6.0\SlashToJava.dll
+C:\Users\stefa\Documents\CSharpToJava\SlashToJava\bin\Debug\net6.0\SlashToJava.pdb
+C:\Users\stefa\Documents\CSharpToJava\SlashToJava\obj\Debug\net6.0\SlashToJava.dll
+C:\Users\stefa\Documents\CSharpToJava\SlashToJava\obj\Debug\net6.0\refint\SlashToJava.dll
+C:\Users\stefa\Documents\CSharpToJava\SlashToJava\obj\Debug\net6.0\SlashToJava.pdb
+C:\Users\stefa\Documents\CSharpToJava\SlashToJava\obj\Debug\net6.0\SlashToJava.genruntimeconfig.cache
+C:\Users\stefa\Documents\CSharpToJava\SlashToJava\obj\Debug\net6.0\ref\SlashToJava.dll
