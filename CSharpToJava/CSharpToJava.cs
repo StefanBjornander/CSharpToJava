@@ -9,8 +9,8 @@ global using System.Collections.Generic;
 namespace CCompiler {
   public class Start {
     private static string m_inPath = @"C:\Users\stefa\Documents\A A C_Compiler_CSharp_10\C_Compiler_CSharp_8\";
-    private static string m_outPath = @"C:\Users\stefa\Documents\A A C_Compiler_CSharp_10_Read\C_Compiler_CSharp_8\";
-    //private static string m_outPath = @"C:\JavaX\MyProject\";
+    //private static string m_outPath = @"C:\Users\stefa\Documents\A A C_Compiler_CSharp_10_Read\C_Compiler_CSharp_8\";
+    private static string m_outPath = @"C:\JavaX\MyProject\";
     //private static StreamWriter m_logStream;
     private static Dictionary<String, String> m_globalMap = new();
 
