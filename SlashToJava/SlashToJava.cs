@@ -15,11 +15,11 @@ namespace CCompiler {
       string[] nameList = {"AssemblyCode", "AssemblyCodeGenerator", "AssemblyOperator",
                            "ConstantExpression", "Declarator", "Error", "Expression",
                            /*"ExpressionParser", "ExpressionScanner",*/ "Global", "Graph",
-                           "GraphPair", "IfElseChain", "Initializer", "Linker", "Macro",
+                           /*"GraphPair",*/ "IfElseChain", "Initializer", "Linker", "Macro",
                            "Main", /*"MainParser", "MainScanner",*/ "Mask", "Message",
                            "MiddleCode", "MiddleCodeGenerator","MiddleCodeOptimizer",
                            "MiddleOperator", "ModifyInitializer", "ObjectCodeComparer",
-                           "ObjectCodeInfo", /*"ObjectCodeTable",*/ "Pair",
+                           "ObjectCodeInfo", /*"ObjectCodeTable", "Pair",*/
                            "PartialExpressionParser", "PartialMainParser",
                            "PartialPreprocessorParser", /*"PreParser",*/ "Preprocessor",
                            /*"PreScanner",*/ "Register", "RegisterAllocator", "Scope",

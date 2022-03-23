@@ -18,11 +18,11 @@ namespace CCompiler {
       string[] nameList = {"AssemblyCode", "AssemblyCodeGenerator", "AssemblyOperator",
                            "ConstantExpression", "Declarator", "Error", "Expression",
                            /*"ExpressionParser", "ExpressionScanner",*/ "Global", "Graph",
-                           "GraphPair", "IfElseChain", "Initializer", "Linker", "Macro",
+                           /*"GraphPair",*/ "IfElseChain", "Initializer", "Linker", "Macro",
                            "Main", /*"MainParser", "MainScanner",*/ "Mask", "Message",
                            "MiddleCode", "MiddleCodeGenerator","MiddleCodeOptimizer",
                            "MiddleOperator", "ModifyInitializer", "ObjectCodeComparer",
-                           "ObjectCodeInfo", /*"ObjectCodeTable",*/ "Pair",
+                           "ObjectCodeInfo", /*"ObjectCodeTable", "Pair",*/
                            "PartialExpressionParser", "PartialMainParser",
                            "PartialPreprocessorParser", /*"PreParser",*/ "Preprocessor",
                            /*"PreScanner",*/ "Register", "RegisterAllocator", "Scope",
@@ -87,6 +87,10 @@ namespace CCompiler {
               case "string": {
                   String newWord = Char.ToLower(oldWord[0]) + oldWord.Substring(1);
                   m_globalMap[oldWord] = newWord;
+
+                  if (oldWord.Equals("Type")) {
+                    int i = 1;
+                  }
                 }
                 break;
 
@@ -94,6 +98,11 @@ namespace CCompiler {
                 if (Char.IsUpper(lastWord[0])) {
                   String newWord = Char.ToLower(oldWord[0]) + oldWord.Substring(1);
                   m_globalMap[oldWord] = newWord;
+
+                  if (oldWord.Equals("Type")) {
+                    int i = 1;
+                  }
+
                 }
                 break;
             }
@@ -123,6 +132,10 @@ namespace CCompiler {
               String oldWord = inText.Substring(startIndex, endIndex - startIndex + 1);
               String newWord = Char.ToLower(oldWord[0]) + oldWord.Substring(1);
               m_globalMap[oldWord] = newWord;
+
+              if (oldWord.Equals("Type")) {
+                int i = 1;
+              }
             }
           }
         }
@@ -299,6 +312,9 @@ namespace CCompiler {
           String word = inText.Substring(wordIndex, index - wordIndex);
 
           if (m_globalMap.ContainsKey(word)) {
+            if (word.Equals("Type")) {
+              int i = 1;
+            }
             outBuffer.Append(m_globalMap[word]);
           }
           else {
@@ -400,20 +416,28 @@ namespace CCompiler {
         }
       }
 
-      outBuffer.Replace(" object ", " Object ");
+      outBuffer.Replace(" object", " Object");
       outBuffer.Replace(" register ", " Register ");
       outBuffer.Replace(" const ", " final ");
+      outBuffer.Replace(" is ", " instanceof ");
       outBuffer.Replace(" RegularFrameRegister ", " RegularFrameRegister ");
       outBuffer.Replace("namespace CCompiler {", "package java.CCompiler;\r\n");
       outBuffer.Replace("using System.Numerics;", "import java.math.*;");
       outBuffer.Replace("using System.Collections.Generic;", "import java.util.*;");
       outBuffer.Replace(" foreach ", " for ");
       outBuffer.Replace(" in ", " : ");
-      outBuffer.Replace(" IDictionary ", " Map ");
-      outBuffer.Replace(" Dictionary ", " HashMap ");
+      outBuffer.Replace(" IDictionary<", " Map<");
+      outBuffer.Replace(" Dictionary<", " HashMap<");
       outBuffer.Replace("\r\n}\r\n}", "\r\n}");
 
-
+      outBuffer.Replace("<int", "<Integer");
+      outBuffer.Replace("int>", "Integer>");
+      outBuffer.Replace("<char", "<Character");
+      outBuffer.Replace("char>", "Character>");
+      outBuffer.Replace("<float", "<Float");
+      outBuffer.Replace("float>", "Float>");
+      outBuffer.Replace("<double", "<Double");
+      outBuffer.Replace("double>", "Double>");
 
       StreamWriter streamWriter = new(m_outPath + name + ".java");
       streamWriter.Write(outBuffer);
